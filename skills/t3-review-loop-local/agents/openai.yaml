@@ -1,4 +1,4 @@
 interface:
   display_name: "T3 review loop local"
-  short_description: "Lokalne review i naprawy przed utworzeniem PR"
-  default_prompt: "Użyj $t3-review-loop-local: implementuj i poprawiaj kod lokalnie do Safe To Merge co najmniej 9/10, a dopiero potem wystaw PR z historią review i findingów, bez mergowania."
+  short_description: "Local review and repairs before opening a PR"
+  default_prompt: "Use $t3-review-loop-local to implement and repair code locally until Safe To Merge reaches at least 9/10, then open a PR with the review history and findings, leaving it unmerged."

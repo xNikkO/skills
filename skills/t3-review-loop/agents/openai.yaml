@@ -1,4 +1,4 @@
 interface:
   display_name: "T3 review loop"
-  short_description: "Review, naprawy i podsumowanie do Safe To Merge 9/10"
-  default_prompt: "Użyj $t3-review-loop dla tych PR-ów: ponawiaj niezależne review i naprawy do Safe To Merge co najmniej 9/10, komentuj jako konto publikujące dany PR, podsumuj rundy, oceny, implementację i naprawy, pozostawiając PR-y bez mergowania."
+  short_description: "Review and repair until Safe To Merge reaches 9/10"
+  default_prompt: "Use $t3-review-loop for these PRs: repeat independent reviews and repairs until Safe To Merge reaches at least 9/10, post comments under each PR's publishing account, and summarize rounds, scores, implementation, and repairs while leaving the PRs unmerged."
