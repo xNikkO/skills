@@ -1,4 +1,4 @@
 interface:
   display_name: "T3 review loop"
-  short_description: "Review and repair until Safe To Merge reaches 9/10"
-  default_prompt: "Use $t3-review-loop for these PRs: repeat independent reviews and repairs until Safe To Merge reaches at least 9/10, post comments under each PR's publishing account, and summarize rounds, scores, implementation, and repairs while leaving the PRs unmerged."
+  short_description: "Implement, test in the app and review until Safe To Merge 9/10"
+  default_prompt: "Use $t3-review-loop: choose the implementer and the reviewer from the T3 Code catalog, implement the task, test it in the running app with screenshots, repeat independent reviews and repairs until Safe To Merge reaches at least 9/10, then open a PR with the review history and leave it unmerged."

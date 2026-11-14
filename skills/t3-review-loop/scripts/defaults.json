@@ -1,0 +1,17 @@
+{
+  "aliases": {
+    "claude": "claudeAgent",
+    "anthropic": "claudeAgent",
+    "gpt": "codex",
+    "openai": "codex"
+  },
+  "drivers": {
+    "claudeAgent": {"model": "opus", "effort": "high"},
+    "codex": {"model": "sol", "effort": "high"},
+    "cursor": {"model": "grok", "effort": "high"}
+  },
+  "order": ["claudeAgent", "codex", "cursor"],
+  "effortOptionIds": ["effort", "reasoning_effort"],
+  "maxRounds": 5,
+  "threshold": 9
+}
